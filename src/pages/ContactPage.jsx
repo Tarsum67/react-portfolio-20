@@ -12,5 +12,10 @@ export default function ContactMePage(){
     const [nameErr, setNameErr] = useState(false);
     const [emailErr, setEmailErr] = useState(false);
     const [messageErr, setMessageErr] = useState(false);
-    
+
+  // Event handler for input changes
+  const handleChange = (e) => {
+    // Update input state with the new value
+    setInput({ ...input, [e.target.name]: e.target.value });
+  };
 }
