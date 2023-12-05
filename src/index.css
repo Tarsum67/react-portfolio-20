@@ -14,19 +14,8 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -36,34 +25,122 @@ h1 {
   line-height: 1.1;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.profile-footer {
+  text-align: center;
+  position: fixed;
+  inset: auto 0 0 0;
+  padding: 1em;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.abt-me-port {
+  max-width: 50%;
+}
+
+.project-card {
+  max-width: 500px;
+}
+
+.project-img {
+  max-width: 500px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 4px;
+  position: relative;
+}
+
+/* .project-img:hover {
+  opacity: .7;
+} */
+
+.logo-sm {
+  width: 50px;
+}
+
+.footer-img {
+  width: 50px;
+}
+
+.footer-section {
+  margin-top: auto;
+}
+
+.form-container {
+  max-width: 500px;
+  padding: 50px;
+}
+
+.input-cstm {
+  margin-top: 10px;
+  border-color: #242424;
+}
+
+.portfolio-link {
+  position: absolute;
+  display: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.rel {
+  position: relative;
+}
+
+.rel:hover .portfolio-link {
+  display: flex;
+}
+
+.rel:hover .project-img {
+  opacity: .5;
+}
+
+.about-me {
+  display: flex;
+}
+
+.project-container{
+  padding: 0 15px 30px 15px;
+}
+
+.project-header {
+  padding-top: 15px;
+}
+
+.about-me-p {
+  padding-left: 25px;
+}
+
+@media screen and (max-width: 800px) {
+  .abt-me-port {
+    max-width: 100%;
+    margin-bottom: 15px;
   }
-  a:hover {
-    color: #747bff;
+  
+  .about-me {
+    flex-direction: column;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .project-img,
+  .project-card {
+    width: 100%;
+    padding-right: 0!important;
+    padding-left: 0!important;
+  }
+
+  .project-container{
+    padding-right: 0!important;
+    padding-left: 0!important;
+    margin: auto 15px;
+  }
+
+  nav li {
+    display: inline-block;
+            margin-right: 10px; 
+  }
+
+  .about-me-p {
+    padding-left: 0;
   }
 }
+
+
