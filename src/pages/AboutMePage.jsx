@@ -12,13 +12,10 @@ export default function AboutMePage() {
       {/* Paragraph containing information about me */}
       <p className="about-me-p">
         {/* Professional details */}
-        Full Stack DEV | JavaScript | React | Node | SQL <br />
-
+        Full Stack DEV | JavaScript | React | Node | CSS<br />
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit repellat sed odit dolores voluptatum dicta veritatis? Alias exercitationem molestias iure rerum, ex incidunt sunt vel doloribus enim distinctio expedita sint.
         {/* Brief description */}
-        Experienced coding bootcamp graduate with an extensive background in various programming languages, 
-        developing applications, and building websites from the ground up. Specializes in JavaScript and React. 
-        Professional strengths include creative problem-solving, written and verbal communication, and time management. 
-        Detail-oriented mindset from 6+ years in a management position.
+      
       </p>
     </div>
   );

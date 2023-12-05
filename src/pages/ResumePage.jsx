@@ -5,12 +5,11 @@ import resume from '../assets/resume.pdf';
 export default function ResumePage() {
   return (
     <>
-      {/* Container with padding */}
+      
       <div className='container p-5'>
-        {/* Heading for the Resume section */}
-        <h2>Resume</h2>
         
-        {/* Description about downloading the resume */}
+        <h2>Resume(not updated)</h2>
+        
         <p>Click the link below to download my Resume!</p>
         
         {/* Link to download the resume PDF */}

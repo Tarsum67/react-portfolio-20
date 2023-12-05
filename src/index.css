@@ -1,40 +1,6 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
 
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-.profile-footer {
-  text-align: center;
-  position: fixed;
-  inset: auto 0 0 0;
-  padding: 1em;
-}
-
-.abt-me-port {
-  max-width: 50%;
-}
 
 .project-card {
   max-width: 500px;
@@ -47,9 +13,9 @@ h1 {
   position: relative;
 }
 
-/* .project-img:hover {
+.project-img:hover {
   opacity: .7;
-} */
+}
 
 .logo-sm {
   width: 50px;
@@ -82,9 +48,7 @@ h1 {
   right: 0;
 }
 
-.rel {
-  position: relative;
-}
+
 
 .rel:hover .portfolio-link {
   display: flex;
@@ -108,7 +72,7 @@ h1 {
 
 .about-me-p {
   padding-left: 25px;
-}
+} */
 
 @media screen and (max-width: 800px) {
   .abt-me-port {

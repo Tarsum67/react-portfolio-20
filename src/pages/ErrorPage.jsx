@@ -14,11 +14,7 @@ export default function ErrorPage() {
     <div id="error-page">
       {/* Heading indicating an error */}
       <h1>Oops!</h1>
-      
-      {/* Error message */}
-      <p>Sorry, an unexpected error has occurred.</p>
-      
-      {/* Displaying the error status text or message, using italics */}
+      <p> error has occurred.</p>
       <p>
         <i>{error.statusText || error.message}</i>
       </p>
