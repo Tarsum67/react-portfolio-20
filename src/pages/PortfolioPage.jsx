@@ -4,7 +4,7 @@ import READMe from '../assets/README.png'
 import SVGLogo from '../assets/logo.png'
 import noteTaker from '../assets/note.png'
 import NationalPark from '../assets/NP.png'
-
+import Footer from '../components/UI/Footer';
 // Array of projects
 const projects = [
   {
@@ -38,16 +38,19 @@ const projects = [
 // React component for the Portfolio Page
 export default function PortfolioPage() {
   return (
-    <>
-      {/* Heading for the Projects section */}
-      <h2 className='text-center project-header'>Projects</h2>
-
+    <div classname="portfolio">
       {/* Container for project cards, using flex layout and centering */}
-      <div className='d-flex justify-content-center flex-wrap py-3'>
+      <div className='d-flex justify-content-center flex-wrap py-3 bg-dark'>
+      {/* Heading for the Projects section */}
+      <h2 className=' project-header bg-dark text-white '>Projects</h2>
+      <div className='d-flex justify-content-center flex-wrap py-3 bg-dark'>
+
         {/* Rendering the ProjectCard component and passing projects as a prop */}
         <ProjectCard projects={projects} />
       </div>
-    </>
+      </div>
+      <Footer/>
+    </div>
   );
 }
 

@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-
+import Footer from '../components/UI/Footer';
 export default function ContactMePage() {
   const form = useRef()
   // State to manage form input values
@@ -44,7 +44,7 @@ export default function ContactMePage() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_nnr7me6', 'template_hxw61ul', form.current, '42U8YRZzzVjo5eoZF')
+    emailjs.sendForm('service_rhf4mpo', 'template_va5xq6p', form.current, 'oReJ6sX-h4G2hS1dM')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -58,7 +58,11 @@ export default function ContactMePage() {
   };
 
   return (
-    <div className='form-container'>
+    <div>
+        <div className=' bg-dark text-white container-fluid'>
+
+      
+    <div className='form-container bg-dark text-white container-fluid'>
       <h2 className='text-center'>Contact Me</h2>
       {/* Form element */}
       <form ref={form} className="container d-flex flex-column" onSubmit={sendEmail}>
@@ -106,6 +110,9 @@ export default function ContactMePage() {
           Submit
         </button>
       </form>
+    </div>
+    </div>
+    <Footer/>
     </div>
   );
 }
