@@ -5,6 +5,7 @@ import Footer from '../components/UI/Footer';
 export default function AboutMePage() {
   return (
     // Container with padding, using flex layout
+    <div>
     <div className="p-4 about-me pt-4 bg-dark text-white">
       {/* Displaying the portrait image */}
       <img src={portrait} alt="Portrait" className="abt-me-port" />
@@ -17,7 +18,8 @@ export default function AboutMePage() {
         {/* Brief description */}
       
       </p>
-      <Footer/>
     </div>
+      <Footer/>
+      </div>
   );
 }
