@@ -1,76 +1,18 @@
 
 
-.project-container{
-  padding: 0 15px 30px 15px;
-}
-
-.project-header {
-  padding-top: 15px;
-}
-
-.project-card {
-  max-width: 500px;
-}
-
-/* .project-img {
-  max-width: 500px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  border-radius: 4px;
-  position: relative;
-}
-
-
-.project-img:hover {
-  opacity: .10;
-  
-
-} */
-/* .project-img {
-  max-width: 500px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden; 
-}
-
-.project-img img {
-  width: 100%; 
-  height: auto; 
-  display: block; 
-  transition: opacity 0.3s ease; 
-}
-
-.project-img:hover img {
-  opacity: 10; 
-}
-
-.portfolio-link {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  background: rgba(0, 0, 0, 0.8); 
-  color: white;
-  transition: opacity 0.3s ease;
-} */
 .project-container {
   position: relative;
+  margin: 0 15px 30px 15px;
 }
 
 .project-img-container {
-  position: relative;
   overflow: hidden;
 }
 
 .project-img {
+ 
   max-width: 100%;
-  height: auto;
+  height: 290px;
   transition: opacity 0.3s ease;
 }
 
@@ -85,13 +27,16 @@
   justify-content: center;
   align-items: center;
   opacity: 0;
-  background: rgba(0, 0, 0, 0.8); /* Adjust background color and opacity as needed */
+  background: rgba(0, 0, 0, 0.8);
   color: white;
   transition: opacity 0.3s ease;
+ 
 }
 
-.project-container:hover .project-info {
+
+.project-info:hover {
   opacity: 1;
+  
 }
 
 .project-info h3 {
@@ -99,11 +44,13 @@
 }
 
 .github-logo {
-  width: 40px; /* Adjust the size of the GitHub logo as needed */
+  width: 40px;
   height: auto;
 }
 
-/* Add any other styles as needed */
+
+
+
 
 
 .logo-sm {
@@ -128,32 +75,11 @@
   border-color: #242424;
 }
 
-.portfolio-link {
-  position: absolute;
-  display: none;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-
-
-.rel:hover .portfolio-link {
-  display: flex;
-}
-
-.rel:hover .project-img {
-  opacity: .5;
-}
 
 .about-me {
   display: flex;
 }
 
-.project-container{
-  padding: 0 15px 30px 15px;
-}
 
 .project-header {
   padding-top: 15px;
@@ -173,18 +99,18 @@
     flex-direction: column;
   }
 
-  .project-img,
+  /* .project-img,
   .project-card {
     width: 100%;
     padding-right: 0!important;
     padding-left: 0!important;
-  }
+  } */
 
-  .project-container{
+  /* .project-container{
     padding-right: 0!important;
     padding-left: 0!important;
     margin: auto 15px;
-  }
+  } */
 
   nav li {
     display: inline-block;
