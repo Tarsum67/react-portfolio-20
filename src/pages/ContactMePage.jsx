@@ -59,7 +59,7 @@ export default function ContactMePage() {
 
   return (
     <div>
-        <div className=' bg-dark text-white container-fluid'>
+        <div className='contact-section bg-dark text-white container-fluid'>
 
       
     <div className='form-container bg-dark text-white container-fluid'>
