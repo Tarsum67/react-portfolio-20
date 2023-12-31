@@ -1,16 +1,14 @@
 
 
 .project-container {
+  display: flex;
   position: relative;
   margin: 0 15px 30px 15px;
 }
 
-.project-img-container {
-  overflow: hidden;
-}
 
 .project-img {
- 
+ display: flex;
   max-width: 100%;
   height: 290px;
   transition: opacity 0.3s ease;
@@ -33,7 +31,9 @@
  
 }
 
-
+/* .Port-page {
+  height:100vh;
+} */
 .project-info:hover {
   opacity: 1;
   
@@ -49,10 +49,10 @@
 }
 
 .resume-section{
-  height:80vh;
+  height:83vh;
 }
 .contact-section{
-  height:90vh;
+  height:83vh;
 }
 
 
@@ -83,6 +83,7 @@
 
 .about-me {
   display: flex;
+  height: 83vh;
 }
 
 
@@ -106,18 +107,6 @@
     flex-direction: column;
   }
 
-  /* .project-img,
-  .project-card {
-    width: 100%;
-    padding-right: 0!important;
-    padding-left: 0!important;
-  } */
-
-  /* .project-container{
-    padding-right: 0!important;
-    padding-left: 0!important;
-    margin: auto 15px;
-  } */
 
   nav li {
     display: inline-block;

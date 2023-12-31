@@ -17,7 +17,7 @@ export default function Nav() {
           Contact Me
         </Link>,
         <Link key={4} className="nav-link text-light px-2 py-3" to="/resume">
-          Resume
+          Resume & Documents
         </Link>,
       ]}
     />

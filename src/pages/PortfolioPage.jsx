@@ -43,7 +43,7 @@ export default function PortfolioPage() {
       <div className='d-flex justify-content-center flex-wrap py-3 bg-dark'>
       {/* Heading for the Projects section */}
       <h2 className=' project-header bg-dark text-white '>Projects</h2>
-      <div className='d-flex justify-content-center flex-wrap py-3 bg-dark'>
+      <div className='Port-page d-flex justify-content-center flex-wrap py-3 bg-dark'>
 
         {/* Rendering the ProjectCard component and passing projects as a prop */}
         <ProjectCard projects={projects} />

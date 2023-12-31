@@ -8,13 +8,13 @@ export default function ResumePage() {
       
       <div className='resume-section p-5 bg-dark text-white '>
         
-        <h2>Resume</h2>
+        <h2>Documents</h2>
         
         <p>Click the link below to download my Resume!</p>
         
         {/* Link to download the resume PDF */}
         <a href={resume} download>
-          Download PDF
+          Resume PDF
         </a>
       </div>
       <Footer/>
