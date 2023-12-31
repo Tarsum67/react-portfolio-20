@@ -1,5 +1,5 @@
 // Importing the resume PDF file from the assets folder
-import resume from '../assets/resume.pdf';
+import resume from '../assets/Resume.pdf';
 import Footer from '../components/UI/Footer';
 // React component for the Resume Page
 export default function ResumePage() {
