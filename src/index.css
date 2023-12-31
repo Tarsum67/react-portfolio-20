@@ -48,7 +48,12 @@
   height: auto;
 }
 
-
+.resume-section{
+  height:80vh;
+}
+.contact-section{
+  height:90vh;
+}
 
 
 
@@ -88,7 +93,9 @@
 .about-me-p {
   padding-left: 25px;
 } 
-
+.footer-section {
+  height:10%;
+}
 @media screen and (max-width: 800px) {
   .abt-me-port {
     max-width: 100%;

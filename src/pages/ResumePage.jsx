@@ -6,7 +6,7 @@ export default function ResumePage() {
   return (
     <>
       
-      <div className='resume p-5 bg-dark text-white 'style={{ height: '500px'}}>
+      <div className='resume-section p-5 bg-dark text-white '>
         
         <h2>Resume</h2>
         
