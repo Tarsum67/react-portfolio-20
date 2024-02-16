@@ -11,7 +11,7 @@ export default function AboutMePage() {
       <img src={portrait} alt="Portrait" className="abt-me-port" />
 
       {/* Paragraph containing information about me */}
-      <p className="about-me-p">
+      <p className="about-me-p fs-4">
         {/* Professional details */}
         Full Stack DEV | JavaScript | React | CSS | Node | SQL |<br />
       North Western bootcamp Graduate with experienced using lanuages such a JavaScript to develop applications. strengeths in react and CSS. Strong problem solving skills as well as resourcefulness.
